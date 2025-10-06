@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hometown Home Pro Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-black text-white py-6 flex flex-col items-center">
+    <img src="logo.png" alt="Hometown Home Pro Services Logo" class="w-48 mb-4">
+    <h1 class="text-3xl font-bold tracking-wide">HOMETOWN HOME PRO SERVICES</h1>
+    <p class="italic text-gray-300">Improve your home, Improve your life</p>
+    <div class="mt-2 text-red-500 font-semibold">Call: <a href="tel:9037382501">903-738-2501</a></div>
+  </header>  <!-- Navigation -->  <nav class="bg-red-600 text-white sticky top-0 z-50">
+    <ul class="flex justify-center space-x-6 py-3">
+      <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+      <li><a href="#gallery" class="hover:text-gray-200">Gallery</a></li>
+      <li><a href="#reviews" class="hover:text-gray-200">Reviews</a></li>
+      <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+    </ul>
+  </nav>  <!-- Hero Section -->  <section class="bg-cover bg-center h-96 flex flex-col justify-center items-center text-white text-center" style="background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80');">
+    <div class="bg-black bg-opacity-60 p-6 rounded-lg">
+      <h2 class="text-4xl font-bold mb-3">Crafting Rustic Beauty for East Texas Homes</h2>
+      <p class="text-lg">Remodeling • Cedar Porches • Flooring • Home Additions • Rustic Kitchens</p>
+    </div>
+  </section>  <!-- Services -->  <section id="services" class="py-12 bg-gray-50 text-center">
+    <h3 class="text-3xl font-bold mb-8 text-red-600">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-8 px-6">
+      <div class="bg-white shadow-lg p-6 rounded-xl border-t-4 border-red-600">
+        <h4 class="font-bold text-xl mb-2">Remodeling</h4>
+        <p>Transform your space with custom remodeling built around your lifestyle and taste.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-xl border-t-4 border-red-600">
+        <h4 class="font-bold text-xl mb-2">Cedar Porches & Pergolas</h4>
+        <p>We specialize in rustic cedar structures that give your home real curb appeal.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-xl border-t-4 border-red-600">
+        <h4 class="font-bold text-xl mb-2">Flooring & Additions</h4>
+        <p>From new floors to full-scale additions, we handle every detail from start to finish.</p>
+      </div>
+    </div>
+  </section>  <!-- Gallery -->  <section id="gallery" class="py-12 bg-gray-100 text-center">
+    <h3 class="text-3xl font-bold mb-8 text-red-600">Project Gallery</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-6">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Project 1" class="rounded-lg shadow-md">
+      <img src="https://images.unsplash.com/photo-1560185009-5bf9b1f95c04?auto=format&fit=crop&w=600&q=80" alt="Project 2" class="rounded-lg shadow-md">
+      <img src="https://images.unsplash.com/photo-1600585153835-69518b8b4d8d?auto=format&fit=crop&w=600&q=80" alt="Project 3" class="rounded-lg shadow-md">
+      <img src="https://images.unsplash.com/photo-1595526114035-0c26b8d2a0da?auto=format&fit=crop&w=600&q=80" alt="Project 4" class="rounded-lg shadow-md">
+    </div>
+  </section>  <!-- Reviews -->  <section id="reviews" class="py-12 bg-white text-center">
+    <h3 class="text-3xl font-bold mb-8 text-red-600">Customer Reviews</h3>
+    <div class="grid md:grid-cols-3 gap-8 px-6">
+      <div class="bg-gray-50 shadow p-6 rounded-xl">
+        <p>“Joshua and his crew did an amazing job on our new cedar porch — true craftsmanship!”</p>
+        <span class="block mt-4 font-semibold">– Sarah M.</span>
+      </div>
+      <div class="bg-gray-50 shadow p-6 rounded-xl">
+        <p>“Professional, punctual, and the rustic kitchen makeover blew us away.”</p>
+        <span class="block mt-4 font-semibold">– The Browns</span>
+      </div>
+      <div class="bg-gray-50 shadow p-6 rounded-xl">
+        <p>“They turned our boring front porch into something we’re proud of. Highly recommend.”</p>
+        <span class="block mt-4 font-semibold">– Mark L.</span>
+      </div>
+    </div>
+  </section>  <!-- Contact -->  <section id="contact" class="py-12 bg-gray-50 text-center">
+    <h3 class="text-3xl font-bold mb-8 text-red-600">Get in Touch</h3>
+    <p class="mb-4">Have a project in mind? Let’s talk about it.</p>
+    <form action="mailto:joshthewoodguy@gmail.com" method="post" enctype="text/plain" class="max-w-md mx-auto bg-white shadow-lg p-8 rounded-xl">
+      <input type="text" name="name" placeholder="Your Name" class="w-full mb-4 border p-2 rounded" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full mb-4 border p-2 rounded" required>
+      <textarea name="message" placeholder="Your Message" class="w-full mb-4 border p-2 rounded h-32" required></textarea>
+      <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700">Send Message</button>
+    </form>
+    <p class="mt-6">or call directly at <a href="tel:9037382501" class="text-red-600 font-bold">903-738-2501</a></p>
+    <p>Email: <a href="mailto:joshthewoodguy@gmail.com" class="text-red-600">joshthewoodguy@gmail.com</a></p>
+  </section>  <!-- Footer -->  <footer class="bg-black text-white py-6 text-center">
+    <p>&copy; 2025 Hometown Home Pro Services | Built with pride in East Texas</p>
+  </footer>
+</body>
+</html>
